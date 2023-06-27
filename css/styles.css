@@ -98,6 +98,7 @@
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 180px;
+  margin-top: 60px;
 }
 
 /* FOOTER */
@@ -119,12 +120,18 @@
   font-size: 32px;
 }
 
-.footer-flex {
+.footer-flex-1,
+.footer-flex-2,
+.footer-flex-3 {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   color: white;
   padding-bottom: 40px;
+}
+
+.footer-flex-3 {
+  display: flex;
+  align-items: cent;
 }
 
 .footer-p {
@@ -151,6 +158,7 @@
   text-decoration: none;
   margin-right: 100px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .contact-flex {
@@ -197,4 +205,126 @@
 
 .smartweb-image {
   margin-left: 30px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1024px) {
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .header {
+    border-radius: 0px 0px 20px 20px;
+    height: 185px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 97px;
+    height: 55px;
+  }
+
+  .section-large-image {
+    padding: 20px;
+  }
+
+  .section-h1 {
+    font-size: 18px;
+  }
+
+  .section-images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-p-text {
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 26px;
+  }
+
+  .x {
+    display: none;
+  }
+
+  .button-1 {
+    margin: 0px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footer-h2 {
+    text-align: center;
+  }
+
+  .footer-h2 {
+    padding: 20px;
+    font-size: 32px;
+  }
+
+  .footer-flex-1 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .footer-p {
+    display: none;
+  }
+
+  .button-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-2 {
+    margin-bottom: 40px;
+    width: 463px;
+  }
+
+  .map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .info-flex {
+    margin-bottom: 95px;
+  }
+
+  .contact-info {
+    font-size: 13px;
+    margin-right: 30px;
+  }
+
+  .footer-flex-1,
+  .footer-flex-2,
+  .footer-flex-3 {
+    align-items: center;
+  }
+
+  .footer-flex-2 {
+    flex-direction: column-reverse;
+  }
+
+  .footer-all-rights {
+    color: #c0c0c0;
+    display: block;
+  }
+
+  .footer-all-rights::after {
+    content: url("/images/Group\ 126.png");
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+  }
 }
