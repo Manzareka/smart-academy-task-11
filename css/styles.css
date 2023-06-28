@@ -184,10 +184,13 @@
   border-bottom: 1px solid cornflowerblue;
 }
 
-#text {
+#input-text {
   height: 140px;
   margin-bottom: 50px;
   border: none;
+  background-color: #0020f4;
+  border: none;
+  border-bottom: 1px solid cornflowerblue;
 }
 
 .button-flex {
@@ -256,6 +259,10 @@
 
   .x {
     display: none;
+  }
+
+  #input-text {
+    height: 40px;
   }
 
   .button-1 {
