@@ -131,7 +131,7 @@
 
 .footer-flex-3 {
   display: flex;
-  align-items: cent;
+  align-items: center;
 }
 
 .footer-p {
@@ -179,11 +179,15 @@
   margin-bottom: 40px;
   width: 463px;
   height: 40px;
+  background-color: #0020f4;
+  border: none;
+  border-bottom: 1px solid cornflowerblue;
 }
 
 #text {
   height: 140px;
   margin-bottom: 50px;
+  border: none;
 }
 
 .button-flex {
